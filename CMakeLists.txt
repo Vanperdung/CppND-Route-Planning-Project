@@ -8,6 +8,9 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
 
 project(OSM_A_star_search)
 
+# Add debug symbols globally
+set(CMAKE_BUILD_TYPE Debug)
+
 # Set library output path to /lib
 set(LIBRARY_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/lib")
 
