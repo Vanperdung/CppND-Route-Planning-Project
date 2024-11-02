@@ -4,6 +4,7 @@
 RouteModel::RouteModel(const std::vector<std::byte> &xml) : Model(xml) {
     // Create RouteModel nodes.
     int counter = 0;
+    // Getting all of Nodes from the .osm file
     for (Model::Node node : this->Nodes()) {
         m_Nodes.emplace_back(Node(counter, this, node));
         counter++;
