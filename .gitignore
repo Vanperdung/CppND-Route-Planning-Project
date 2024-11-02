@@ -9,3 +9,4 @@ bin/
 lib/
 .github/**
 thirdparty/P0267_RefImpl/
+.vscode/
